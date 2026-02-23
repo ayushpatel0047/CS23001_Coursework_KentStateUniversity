@@ -1,0 +1,13 @@
+The profiler showed that quickSortRecursive and the partition function took up 
+the largest share of the program's runtime. Indeed, this is because quicksort d
+oes a lot of work every time it divides the array: each recursive call triggers 
+a full scan of the current subarray to compare elements against the pivot and move 
+them into the correct region. For large input sizes, the number of comparisons 
+and swaps grows rapidly, and even though quicksort has good average-case performance, 
+the constant factors inside partitioning are still costly. Furthermore, 
+recursion adds overhead due to repeated function calls and stack activity. 
+Since the algorithm must process every element several times across various 
+recursion levels, the partitioning stage naturally becomes the dominant bottleneck. 
+This combination of repeated scanning, heavy element operations, 
+and recursive depth explains why these functions take the longest 
+time in the profiler output.
