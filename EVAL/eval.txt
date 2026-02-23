@@ -1,0 +1,188 @@
+Labs:
+- lab1: 10/10
+- lab2: 10/10
+- lab3: 8/10
+    - Missing test cases for Bigint(char[]) in operator+
+    - Missing test cases for n*1 and 1*n
+- lab4: 10/10
+- lab5: 10/10
+- lab6: 10/10
+- lab7: 10/10
+
+Projects:
+- p1-m1: 100/100
+    - SVN revision number: 1210
+    - Functionality:
+        [y] Default constructor
+        [y] int constructor
+        [y] C-string constructor
+        [y] operator==
+        [y] operator<<
+- p1-m2: 30/100
+    - SVN revision number: 1706.
+    - Functionality:
+        [y] operator[]
+        [y] operator+
+        [y] operator>>
+            [y] works incorrectly (-10)
+                - You don't have tests for the operator neither add.cpp
+        [y] operator==
+            - int == Bigint
+                - missing implementation (-5)
+                - missing tests (-5)
+            - const char[] == Bigint
+                - missing implementation (-5)
+                - missing tests (-5)
+        [y] add program
+            [y] Not present or empty (-20)
+    - Notes:
+        - You are not allowed to use STL, except <iostream>, <cassert> and <fstream> (-20)
+- p1-m2-regrade: 60/100
+    - SVN revision number: 2245
+    - Functionality:
+        [y] operator[]
+        [y] operator+
+        [y] operator>>
+            [y] works incorrectly (-10)
+                - You don't have tests for the operator neither add.cpp
+        [y] operator==
+            - int == Bigint
+                - missing tests (-5)
+            - const char[] == Bigint
+                - missing tests (-5)
+        [y] add program
+            [y] Not present or empty (-20)
+- p1-m3: 70/100
+    - SVN revision number: 2276
+    - Functionality:
+        [y] operator*
+        [y] timesDigit function
+            [y] missing tests cases (-3)
+                - Test case for 0.timesDigit(0) == 0
+                - Test case for 0.timesDigit(n1) == 0, where n1 != 0
+                - Test case for 1.timesDigit(n1) == n1, where n1 != 0
+        [y] times10 function
+            [y] missing tests cases (-2)
+                - Test case for 0.times10(0) == 0
+                - Test case for 0.times10(n1) == 0, where n1 != 0
+        [y] multiply program
+            [y] Not present or empty (-25)
+- p1-m3-regrade: 90/100
+    - SVN revision number: 2931
+    - Functionality:
+        [y] operator*
+        [y] timesDigit function
+        [y] times10 function
+        [y] multiply program
+- p2-m1: 0/100
+    - SVN Revision: 2809
+    - Notes:
+        - No submission
+- p2-m1-regrade: 57/100
+    - SVN Revision: 3554
+    - Functionality:
+        [y] testing
+            [] General
+                - Test coverage is low (-6)
+                    - You were missing a lot of edge test cases
+            [] concatenation
+                - Missing tests for operator+= (-1)
+            [] relationship
+                - Missing tests for operator!= (-1)
+                - Missing tests for operator> (-1)
+                - Missing tests for operator<= (-1)
+                - Missing tests for operator>= (-1)
+            [] io operators
+                - Missing tests for operator<< (-1)
+            [] operator[]
+                - Missing tests for operator[] const (-1)
+    - Notes:
+        - data files committed (-20)
+        - make tests failed (-10)
+- p2-m2: 76/100
+    - SVN Revision: 3279
+    - Functionality (26/50pts):
+        [y/n] Doesn't pass their test cases from Milestone 1 (including changing capacity()) (-4)
+        - Notes:
+            - Data files committed (-20)
+    - Testing (50/50pts):
+- p2-m2-regrade:
+    - SVN Revision: 3771
+    - Functionality (26/50pts):
+        [y/n] Doesn't pass their test cases from Milestone 1 (including changing capacity()) (-4)
+        - Notes:
+            - String folder has executables or .o files (-30)
+    - Testing (0/50pts):
+        - Your Makefile is broken I can't run tests
+    - Notes:
+        - Since regrade is lower, you keep previous grade
+- p2-m3: 28/100
+    - SVN Revision: 3757
+    - Functionality:
+        [] Adequate testing (25pts)
+            - Tests failed (-7)
+        [] Passes instructor tests (50pts)
+    - Notes:
+        - Data files committed (-30)
+        - String folder has executables or .o files (-30)
+        - Fix your Makefile (-5)
+- p2-m3-regrade: 90/100
+    - SVN Revision: 4114
+    - Functionality:
+        [] Adequate testing (25pts)
+            - Tests failed (-7)
+- p2-m4: 40/100
+    - SVN Revision: 4190
+    - M4 (100pts)
+        - Functionality:
+            [] Prints out sale entries (all) (-5)
+                - missing tags for fields
+            [] Prints out total number of reviews (-5)
+                - wrong pet-supplies.csv
+                - wrong air-conditioners.csv
+                - wrong appliances.csv
+        - Notes:
+            - Using STL methods or classes, except <iostream>, <cassert>, <fstream> and <vector> (-50)
+                - using std::stringstream
+- p2-m4-regrade: 60/100
+    - SVN Revision: 4746
+    - M4 (100pts)
+        - Functionality:
+            [] Correctly parses .csv files (-15)
+                - I can't verify fields are parsed correctly
+            [] Prints out sale entries (all) (-10)
+                - Some fields have empty data
+            [] Prints out total number of reviews (-5)
+                - wrong pet-supplies.csv
+                - wrong air-conditioners.csv
+                - wrong appliances.csv
+            [] Prints out links (-10)
+                - Not working
+- p3-m1: 100/100
+    - SVN Revision: 4532
+- p3-m2: 40/100
+    - SVN revision number: 4879
+    - stack functionality (35/35)
+    - postfix functionality (5/65)
+        [y] infix to postfix function
+            [y] Missing own test data file (-5)
+        [y] postfix.cpp
+            [y] Doesn't work correctly on data3-1.txt (-5)
+                - missing spaces between tokens
+        - Notes:
+            - Using STL methods or classes, except <iostream>, <cassert>, <fstream> and <vector> (-50)
+                - using std::istringstream
+                - using std::ostringstream
+                - using std::string
+- p3-m3: 30/100
+    - SVN revision: 5259
+    - Functionality:
+        [y] TMPn generating from 1 to maxint (-5)
+            - It's not gonna work. You don't have a String(int) constructor
+        [y] assembler.cppc
+            [y] attempted (-20)
+            [y] Command line options handled correctly (-5)
+            [y] Correct assembly generated for data3-1.txt (-30)
+            [y] Output formatted correctly (-10)
+    - Notes:
+        - Your code is not compiling

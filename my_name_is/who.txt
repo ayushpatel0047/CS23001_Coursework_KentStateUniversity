@@ -1,0 +1,21 @@
+ 13:03:04 up 1 day, 20:30, 25 users,  load average: 0.03, 0.17, 0.36
+USER     TTY        LOGIN@   IDLE   JCPU   PCPU WHAT
+rsourave           Tue23   44:29m  0.00s  0.04s sshd-session: rsourave [priv]
+rsourave           Tue23   44:29m  0.00s  0.77s /usr/lib/systemd/systemd --user
+dmendoz3           08:42   44:29m  0.00s  0.31s /usr/lib/systemd/systemd --user
+bkliskey           11:12   44:29m  0.00s  0.27s /usr/lib/systemd/systemd --user
+aobryant           11:54   44:29m  0.00s  0.25s /usr/lib/systemd/systemd --user
+jjone262           12:02   44:29m  0.00s  0.18s /usr/lib/systemd/systemd --user
+mchowd14           12:20   44:29m  0.00s  0.19s /usr/lib/systemd/systemd --user
+ejironal           12:25   44:29m  0.00s  0.06s sshd-session: ejironal [priv]
+ejironal           12:25   44:29m  0.00s  0.18s /usr/lib/systemd/systemd --user
+apate121           12:33   44:29m  0.00s  0.16s /usr/lib/systemd/systemd --user
+nhilles            12:35   44:29m  0.00s  0.05s sshd-session: nhilles [priv]
+nhilles            12:35   44:29m  0.00s  0.16s /usr/lib/systemd/systemd --user
+kku                12:42   44:29m  0.00s  0.06s sshd-session: kku [priv]
+kku                12:42   44:29m  0.00s  0.14s /usr/lib/systemd/systemd --user
+dmendoz3           12:50   44:29m  0.00s  0.04s sshd-session: dmendoz3 [priv]
+jjone262           12:56   44:29m  0.00s  0.04s sshd-session: jjone262 [priv]
+crobiso8           13:01   44:29m  0.00s  0.04s sshd-session: crobiso8 [priv]
+crobiso8           13:01   44:29m  0.00s  0.11s /usr/lib/systemd/systemd --user
+apate121           13:01   44:29m  0.00s  0.04s sshd-session: apate121 [priv]
